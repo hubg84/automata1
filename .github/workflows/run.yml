@@ -19,7 +19,7 @@ jobs:
           python-version: "3.10"
 
       - name: Arukereso.py futtatása
-        run: python Arukereso.py
+        run: python blob/main/.github/workflows/Arukereso.py
 
       - name: urls.txt commitolása
         run: |
